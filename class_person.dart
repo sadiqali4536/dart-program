@@ -19,14 +19,10 @@ class Student extends Person{
 
 
 void main(){
-  Person p1=Person();
-  p1.name='sadiq';
-  p1.age=20;
-  p1.display();
-
+    
   Student s1=Student();
-  s1.name='aju';
-  s1.age=22;
+  s1.name='sadiq';
+  s1.age=21;
   s1.grade='A';
   s1.display();
 
